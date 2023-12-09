@@ -1,0 +1,1 @@
+This folder contains the images and corresponding text files (under Labels) with annotations & bbox coordinates for each image in the Testing dataset.

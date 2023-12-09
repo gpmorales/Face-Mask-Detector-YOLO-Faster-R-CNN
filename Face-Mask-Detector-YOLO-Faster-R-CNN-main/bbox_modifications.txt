@@ -1,0 +1,10 @@
+bbox=list(bbox)
+for i in range(4):
+  if (bbox[i]<=0) :
+    bbox[i]=np.finfo(np.float32).tiny
+  elif (bbox[i]>1.0) :
+    bbox[i]=1.0
+bbox=tuple(bbox)
+
+  x_min, x_max = max(0, x_min / cols), min(1, x_max / cols)
+  y_min, y_max = max(0, y_min / rows), min(1, y_max / rows
