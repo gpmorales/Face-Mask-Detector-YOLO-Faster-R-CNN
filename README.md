@@ -1,4 +1,4 @@
-## CS-334 Final Project
+## Practical Computer Vision  Project
 
 ### Project Structure
 * `Images/` - Contains all project images
